@@ -1,15 +1,15 @@
-**Azure OpenAI Service** — para dos cosas distintas: el clasificador de crisis emocional (LLM call #1) y el análisis pragmático principal (LLM call #2), ambos con GPT-4o-mini. También para los embeddings durante la indexación documental.
+Azure OpenAI Service — para dos cosas distintas: el clasificador de crisis emocional (LLM call #1) y el análisis pragmático principal (LLM call #2), ambos con GPT-4o-mini. También para los embeddings durante la indexación documental.
 
-**Azure AI Search** — motor de recuperación documental con búsqueda híbrida (vectorial + semántica) y reranking. Es donde vive el corpus indexado.
+Azure AI Search — motor de recuperación documental con búsqueda híbrida (vectorial + semántica) y reranking. Es donde vive el corpus indexado.
 
-**Azure App Service** — donde corre el backend .NET.
+Azure App Service — donde corre el backend .NET.
 
-**Azure Static Web Apps** — donde se despliega el frontend React.
+Azure Static Web Apps — donde se despliega el frontend React.
 
-**Azure Monitor** — recibe las métricas de calidad del sistema: porcentaje grounded, cumplimiento de políticas, latencia, cache hit rate, etc.
+Azure Monitor — recibe las métricas de calidad del sistema: porcentaje grounded, cumplimiento de políticas, latencia, cache hit rate, etc.
 
-**Azure Functions** — ejecuta el job periódico de evaluación automatizada con las preguntas de prueba predefinidas.
+Azure Functions — ejecuta el job periódico de evaluación automatizada con las preguntas de prueba predefinidas.
 
-**Azure SQL Database o Azure Cosmos DB** — almacenamiento de trazas completas por `trace_id`, versiones de prompts y métricas. El README menciona ambas opciones como compatibles, sin fijar una concreta.
+Azure SQL Database o Azure Cosmos DB — almacenamiento de trazas completas por `trace_id`, versiones de prompts y métricas. El README menciona ambas opciones como compatibles, sin fijar una concreta.
 
-En total, **6 servicios** (7 si se cuenta SQL y Cosmos como opciones distintas). El núcleo duro del sistema son los tres primeros: OpenAI, AI Search y App Service. Los otros cuatro son los que elevan el proyecto de "aplicación RAG" a "sistema gobernado con observabilidad".
+En total, 6 servicios (7 si se cuenta SQL y Cosmos como opciones distintas). El núcleo duro del sistema son los tres primeros: OpenAI, AI Search y App Service. Los otros cuatro son los que elevan el proyecto de "aplicación RAG" a "sistema gobernado con observabilidad".
