@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.appmod",
+    "\\app",
+    "\\app\\models",
+    "\\app\\routers"
+  ],
+  "SelectedNode": "\\app\\routers\\__init__.py",
+  "PreviewInSolutionExplorer": false
+}
