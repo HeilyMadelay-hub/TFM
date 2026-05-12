@@ -571,4 +571,4 @@ El diseño del sistema establece un conjunto de evoluciones planificadas con con
 ## Licencia
 
 Este proyecto ha sido desarrollado como Trabajo de Fin de Máster con fines académicos.
-_[Especificar licencia si aplica]_
+Distribuido bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más información.
