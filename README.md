@@ -559,12 +559,12 @@ El diseño del sistema establece un conjunto de evoluciones planificadas con con
 
 ---
 
-## Autor
+## Autoras
 
-**Nombre:** _[Completar con el nombre del autor del TFM]_
-**Máster:** _[Completar con el nombre del programa académico]_
-**Institución:** _[Completar con la universidad o centro académico]_
-**Año:** 2025
+**Nombre:** Elizabeth Sáenz Camacho y Heily Madelay Tandazo  
+**Máster:** Desarrollo Full Stack & Arquitecturas Cloud  
+**Institución:** Tajamar  
+**Año:** 2026
 
 ---
 
